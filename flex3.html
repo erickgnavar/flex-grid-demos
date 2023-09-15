@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      html, body {
+        height: 100%;
+      }
+
+      body {
+        background-image: url("https://www.civitatis.com/blog/wp-content/uploads/2022/07/portada-atardecer-nueva-york-1920x1280.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+      }
+
+      .wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 2rem auto;
+        gap: 1rem;
+      }
+
+      .top-bar {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .date h3 {
+        font-size: 3rem;
+      }
+
+      .agenda {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .agenda-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1rem;
+      }
+
+      .agenda-item h4 {
+        font-size: 3rem;
+      }
+
+      .time {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-grow: 1;
+      }
+
+      .weather {
+        font-size: 3rem;
+      }
+
+      .agenda-item .description {
+        border-bottom: 1px solid white;
+        flex-grow: 3;
+      }
+
+      .footer {
+        display: flex;
+        justify-content: space-around;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="top-bar">
+        <img alt="" src="./images/mobile.png"/>
+        <img alt="" src="./images/mobile.png"/>
+      </div>
+
+      <div class="header">
+        <div class="date">
+          <h3>Sunday</h3>
+          <p>September 11, 2016</p>
+        </div>
+        <div class="weather">
+          29C
+        </div>
+      </div>
+
+      <div class="agenda">
+        <div class="agenda-item">
+          <div class="time">
+            <h4>8</h4>
+            <p>AM</p>
+          </div>
+          <div class="description">
+            <p class="title">
+              Have some breakfast
+            </p>
+            <p class="subtitle">
+              delicious noddle
+            </p>
+          </div>
+        </div>
+
+        <div class="agenda-item">
+          <div class="time">
+            <h4>8</h4>
+            <p>AM</p>
+          </div>
+          <div class="description">
+            <p class="title">
+              Have some breakfast
+            </p>
+            <p class="subtitle">
+              delicious noddle
+            </p>
+          </div>
+        </div>
+
+        <div class="agenda-item">
+          <div class="time">
+            <h4>8</h4>
+            <p>AM</p>
+          </div>
+          <div class="description">
+            <p class="title">
+              Have some breakfast
+            </p>
+            <p class="subtitle">
+              delicious noddle
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <img alt="" src="./images/mobile.png"/>
+        <img alt="" src="./images/mobile.png"/>
+        <img alt="" src="./images/mobile.png"/>
+      </div>
+    </div>
+  </body>
+</html>
